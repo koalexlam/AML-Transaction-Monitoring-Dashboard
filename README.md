@@ -64,7 +64,7 @@ AML-Transaction-Monitoring-Dashboard/
 > Note: The model file `xgboost_aml_model.pkl` is quite large. You can also download it from Google Drive if needed.
 
 ## Project Highlights
-Successfully applied Machine Learning to the financial compliance (RegTech) domain
-Solved the high false positive issue in traditional AML systems
-Implemented Explainable AI (XAI), which is crucial for regulatory acceptance
-End-to-end development: data processing → feature engineering → modeling → visualization → interactive UI
+1. Successfully applied Machine Learning to the financial compliance (RegTech) domain
+2. Solved the high false positive issue in traditional AML systems
+3. Implemented Explainable AI (XAI), which is crucial for regulatory acceptance
+4. End-to-end development: data processing → feature engineering → modeling → visualization → interactive UI
