@@ -21,6 +21,22 @@ This project demonstrates a modern RegTech solution that combines high-accuracy 
 | F1-Score     | 0.0466                 | **0.96**      |
 | PR-AUC       | -                      | **0.9945**    |
 
+## Dataset
+
+This project uses the **PaySim** synthetic financial transaction dataset for training and evaluation.
+
+- **Data Source**: PaySim simulator-generated synthetic mobile money transactions (modeled after real mobile money transaction behavior)
+- **Dataset Characteristics**:
+  - Approximately **6,000,000** transaction records
+  - Simulates realistic money laundering behaviors
+  - Includes key fields such as `step`, `type`, `amount`, `nameOrig`, `oldbalanceOrg`, `newbalanceOrig`, `nameDest`, `oldbalanceDest`, `newbalanceDest`, `isFraud`, and `isFlaggedFraud`
+- **Why Synthetic Data?**  
+  Real bank transaction data is rarely released publicly due to privacy and regulatory restrictions. PaySim is one of the most widely used public benchmark datasets in the AML research community.
+
+> Original dataset and paper: [PaySim on Kaggle](https://www.kaggle.com/datasets/ealaxi/paysim1)
+
+The model was trained on **80%** of the data, with the remaining **20%** used as the test set.
+
 ## Dashboard Features
 - Real-time risk scoring after uploading transaction data
 - High-risk alert list with one-click CSV download
